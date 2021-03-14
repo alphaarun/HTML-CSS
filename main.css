@@ -1,0 +1,47 @@
+.zooContainer {
+    border-style:ridge;
+
+}
+li {
+    list-style:none;
+    width:99%;
+    border-style: double;
+    display: list-item;
+    border-radius: 3px;
+    text-align: right;
+    display : flex;
+    justify-content: center;
+   
+    }
+
+ul {
+    border-style:inset;
+    padding: 10px;
+    width: 28%;
+    border-radius: 10px;
+    flex-flow: wrap;
+    margin: auto;
+    /* padding:0;
+    position:relative;
+    left:35%; */
+}
+
+li:hover{
+    background-color: darkred;
+}
+
+li:last-child{
+    margin-bottom: 2px;
+}
+
+li:first-child{
+    margin-top: 2px;
+}
+
+body {
+    background-color: grey
+}
+
+h3 {
+    text-align: center;
+}
